@@ -34,19 +34,16 @@ Two distinct machine learning applications:
 
 ### Installation
 
-#### Option 1: With Docker
-
 ```bash
 # Build the Docker image
 docker build -t ai-portfolio -f DockerFile .
 
 # Run the container
 docker run -p 8888:8888 ai-portfolio
-```
 
-#### Option 2: Manual Setup
 
-```bash
+# To automate downloading data and placing it into directories
+
 # Create virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows: .\venv\Scripts\activate
@@ -54,7 +51,7 @@ source venv/bin/activate  # On Windows: .\venv\Scripts\activate
 # Install dependencies
 pip install -r [requirements.txt](http://_vscodecontentref_/4)
 
-# Download datasets
+# Download datasets by running this in project root
 python [download_data.py](http://_vscodecontentref_/5)
 ```
 
