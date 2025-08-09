@@ -29,3 +29,4 @@ The dataset contains life expectancy, health factors, and economic factors for c
 
 1. Ensure data is downloaded: `python download_data.py`
 2. Open and run the notebooks: `jupyter notebook`
+   git
