@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual Environments
+env/
+venv/
+.venv/
+
+# Data
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.h5
+*.pkl
+
+# Models
+*.h5
+*.pt
+*.onnx
+*.joblib
+
+# Logs
+*.log
+*.out
+*.err
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.env
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
